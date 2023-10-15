@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "html2pdf.js": "^0.10.1",
+    "jspdf": "^2.5.0",
+    "parcel": "^2.2.0",
+    "pdfkit": "^0.13.0",
+    "pdfmake-lite": "^0.1.70"
+  },
+  "name": "mock-trial-tabs-export",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel watch index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

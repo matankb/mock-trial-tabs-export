@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+
+  "name": "Mock Trial Tabs Exporter",
+  "version": "0.0.1",
+  "description": "Export all your team's ballot into PDFs",
+
+  "action": {
+    "default_title": "Export Ballots"
+  },
+  
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+  
+}
